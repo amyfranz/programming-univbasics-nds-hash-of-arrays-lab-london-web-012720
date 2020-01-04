@@ -6,5 +6,6 @@ BASE_HOA = {
 
 
 def add_character(show, name)
-  BASE_HO[show].unshift = name
+  BASE_HO[show] << name
+  
 end
